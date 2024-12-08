@@ -10,7 +10,7 @@ import socket
 class NetworkScanner(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Network and Port Scanner by Antonio Cufari ver. 1.0")
+        self.title("Network and Port Scanner ver. 1.0")
         self.geometry("700x700")
 
         self.label_ip = tk.Label(self, text="Inserisci l'indirizzo o intervallo IP/Dominio: (es. 192.168.1.1/24 o Dominio)")
